@@ -142,6 +142,8 @@ body {
    background-position: top center;
    background-size: initial; /* размер картинки по умолчанию */
    padding-bottom: 180px;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 .why-items {
    margin-top: 60px;
@@ -169,6 +171,8 @@ body {
    background-position: top center;
    background-size: 1400px;
    padding-bottom: 180px;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 .products-items {
    display: grid;
@@ -228,6 +232,7 @@ body {
    background-image: url("../images/order_bg.png");
    background-position: top center;
    background-repeat: no-repeat;
+   background-size: cover;
    padding-bottom: 180px;
    overflow: hidden;
 }
